@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Kanit:ital@1&family=Pattaya&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+    justify-content: center;
+
+}
+
+nav li {
+    list-style: none;
+    padding: 10px;
+}
+nav li:first-child img{
+    height: 100px;
+
+}
+
+nav li:first-child{
+    margin-right: auto;
+}
+
+nav li:last-child{
+    margin-left: auto;
+}
+
+nav li button{
+    padding: 10px 50px;
+    background-color: blue;
+    border: 0px;
+    border-radius: 20px;
+    color: white;
+}
